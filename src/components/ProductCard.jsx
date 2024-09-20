@@ -35,7 +35,7 @@ const ProductCard = ({ product }) => {
         )}
       </div>
       
-      <Link target='_blank' to={`/product/${product.id}`} className="text-blue-600 hover:underline mt-4 inline-block">
+      <Link  to={`/product/${product.id}`} className="text-blue-600 hover:underline mt-4 inline-block">
         View Details
       </Link>
     </div>
